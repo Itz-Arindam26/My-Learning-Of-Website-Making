@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font,Text &amp; Color Properties</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Cagliostro&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Anton&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Cagliostro&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Homemade+Apple&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Ms+Madi&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&family=Whisper&display=swap');
+        body{
+            color: white;
+            background-color: black;
+        }
+        h1{
+            font-family: "Poppins","Baloo Da 2","Baloo Bhaina 2",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* font-style: italic;
+            font-weight: 600;
+            text-decoration: underline; */
+            line-height: 45px;
+        }
+        h2{
+            text-transform: capitalize;
+            font-family: "Truculenta",monospace;
+            text-decoration: underline;
+            /* Always in text decoration properties,only underline works but in text decoration style property all properties work */
+            text-decoration-color: aqua;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 7px;
+            /* Text indent is a feature which is used to give first word gap from margin */
+            text-indent: 45px;
+            text-overflow: ellipsis;
+            /* text align aligns text align as per user's interest */
+            text-align: center;
+        }
+        .lorem{
+            border: 2px solid yellow;
+            width: 145px;
+            word-break: break-all;
+            /* text-overflow: ellipsis;
+            overflow: hidden; */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Font,Text &amp; Color Properties</h1>
+    <h2>about fonts</h2>
+    <div>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam debitis facilis eius possimus sint ut unde deserunt placeat aliquam facere nemo explicabo rerum eum similique atque deleniti, veniam ad quasi id autem reprehenderit? Sunt beatae quisquam maxime, eos, vero quibusdam voluptatibus aspernatur atque nemo, corporis sit ratione. Neque hic rem nostrum sunt facilis ab?</p>
+        <p>I am a font.</p>
+    </div>
+</body>
+</html>
