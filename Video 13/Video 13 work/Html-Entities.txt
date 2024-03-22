@@ -1,0 +1,13 @@
+**HTML Entities**
+&lt;  for <
+&gt;  for >
+&amp; for &
+&nbsp; for a non-breaking space
+&copy; for ©
+<pre></pre> for writing any code and with non breaking spacing.
+
+**Obsolete Tags**
+<font>
+<center>
+<u>
+

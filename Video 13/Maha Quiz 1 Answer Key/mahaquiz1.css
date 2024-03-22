@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Kode+Mono:wght@400..700&family=Madimi+One&family=Nanum+Gothic+Coding&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-family: "Anta","Baloo Da 2","Poppins","Baloo Bhaina 2","Oswald",sans-serif;
+    color: blueviolet;
+    display: inline-flex;
+    font-size: 49px;
+}
+/* video{
+    display: inline-block;
+    padding-top: 3rem;
+} */
+.as102{
+    display: inline-flex;
+    position: relative;
+    right: -366px;
+}
+nav div ul li{
+    font-family: "Madimi One","Poppins","Baloo Bhaina 2","Baloo da 2",sans-serif;
+    border: 2px solid magenta;
+    list-style-type: none;
+    display: inline-flex;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:rgb(0, 0, 0);
+}
+h2{
+    text-align: center;
+    font-size: 61px;
+    font-family: "Poppins","Baloo Bhaina 2","Baloo Da 2","Oswald",sans-serif;
+}
+.as101{
+    font-family: "Oswald","Baloo Da 2","Baloo Bhaina 2","Poppins","Kode Mono",sans-serif;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid rgb(251, 255, 45);
+    border-radius: 6px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-family: "Poppins","Kode Mono","Baloo Da 2","Baloo Bhaina 2",sans-serif;
+}
+video{
+    display: block;
+    margin: 30px;
+    outline: 11px solid white;
+}
+audio{
+    display: block;
+    margin: 30px auto;
+}
+hr{
+    margin: 27px;
+    border: 3px solid white;
+}
+li:hover{
+    font-family: "Kode Mono","Poppins","Baloo Da 2","Baloo Bhaina 2",sans-serif;
+    background-color: magenta;
+}
