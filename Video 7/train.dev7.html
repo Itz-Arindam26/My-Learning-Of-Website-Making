@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's learn it</title>
+</head>
+
+<body>
+    <h1>Form To apply for Train tickit</h1>
+    <form action="post">
+        <!-- Get is a simple form of request in which the server took data simply but Post is a form of request in which server took data as well as it performs functions related to that -->
+        <div>
+            <label for="username">Enter Your Username: </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required autofocus>
+        </div>
+        <!-- <label for="gender"></label> -->
+        <div>
+            Gender:
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter Your Comments</label><br>
+            <textarea name="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="fruit">Select Your favourite Fruit</label>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+          </select>
+        </div>
+    </form>
+</body>
+
+</html>
