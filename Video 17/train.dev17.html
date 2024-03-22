@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+        ul{
+            list-style-type: bengali;
+        }
+        ol{
+            list-style: bengali;
+        }
+        .box{
+            background-color: cyan;
+        }
+        .box1{
+            color: red;
+            padding: 10px;
+            margin: 6px;
+            height: 30px;
+            box-sizing: border-box;
+            border: 2px solid red;
+        }
+        .box2{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Boxmodel</h1>
+    <div>
+        The CSS Box model defines how elements are rendered and how their dimensions are calculated.It describes the structure of an element as a rectangular box that has content, padding, a border, and a margin.The box model consists of four main components, which are
+        <ol>
+            <li>Content
+                <ul>
+                    <li>The innermost component of the box model is the actual content of the element. It can be text, image, video, etc.</li>
+                    <li>The content area is defined by the width and height properties.</li>
+                </ul>
+            </li>
+            <li>Padding
+                <ul>
+                    <li>The space between the actual content and the border of the element is the padding.</li>
+                    <li>The padding area is defined by the property padding.</li>
+                </ul>
+            </li>
+            <li>Border
+                <ul>
+                    <li>The border surrounds the content and padding and gives the visual border of the element.</li>
+                    <li>The border properties can be controlled using the border keyword.</li>
+                </ul>
+            </li>
+            <li>Margin
+                <ul>
+                    <li>The margin is the space outside the element that separates it from other elements in the layout.</li>
+                    <li>The margin of the element is controlled by the margin property</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div align="center">
+        <p>This is a diagram which shows about CSS boxmodel</p>
+        <img src="https://study.com/cimages/multimages/16/boxmodel.jpg" alt="CSS boxmodel">
+    </div>
+    <div class="box box1">I am box 1</div>
+    <div class="box box2">I am box 2</div>
+</body>
+</html>
