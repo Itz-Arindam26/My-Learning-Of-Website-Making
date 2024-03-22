@@ -1,0 +1,17 @@
+*Attributes of Video Tags*
+
+1.width and height: Specifies the dimensions of the video.
+2.poster: Specifies an image to be displayed before the video starts playing.
+3.muted: Mutes the video by default.
+4.loop: Repeats the video once it ends.
+5.autoplay: Automatically starts playing the video when the page loads.
+6.controls: Adds video controls, like play, pause, and volume.
+7.src: Specifies the path to the video file.
+
+*Attributes of Audio Tags*
+
+1.src: Specifies the path to the audio file.
+2.controls: Adds audio controls, like play, pause, and volume.
+3.loop: Repeats the audio once it ends.
+4.muted: Mutes the audio by default.
+5.preload: Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none').

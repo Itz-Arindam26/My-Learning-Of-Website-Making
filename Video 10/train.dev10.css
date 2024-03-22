@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Kode+Mono:wght@400..700&family=Madimi+One&family=Nanum+Gothic+Coding&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --borderradius: 6px;
+}
+pre{
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    font-family: "Kode Mono","Baloo Da 2","Baloo Bhaina 2", sans-serif;
+}
+video{
+    /* boreder radius is used to make the corners of any element's border rounded */
+    border-radius: var(--borderradius);
+}
+audio{
+    border-radius: var(--borderradius);
+}
+.as100{
+    font-family: "Anta","Baloo Da 2","Baloo Bhaina 2",sans-serif;
+    text-align: center;
+    background-color: yellow;
+    border-radius: var(--borderradius);
+}
+.as101{
+    font-family: "Ojuju","Baloo Bhaina 2","Baloo Da 2",sans-serif;
+    font-size: 37px;
+}
+div{
+    font-family: "Oswald","Poppins","Baloo Da 2","Baloo Bhaina 2",sans-serif;
+}
+p{
+    font-family: "Madimi One","Poppins","Baloo da 2","Baloo Bhaina 2",sans-serif;
+}
+body{
+    background-color: burlywood;
+}
+ul{
+    list-style-type: square;
+}
+iframe{
+    background-color: white;
+}

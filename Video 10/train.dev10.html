@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.mp3 &amp; .mp4 File attachment in HTML</title>
+    <link rel="stylesheet" href="train.dev10.css">
+</head>
+
+<body>
+    <h2 class="as100">Video Tag in HTML</h2>
+    <h3 class="as101">Video Tag</h3>
+    <!-- &lt; and &gt; are elements in HTML used to symbolise '<' and '>' in the viewing screen as when we add in the way like<p> in the code to show user, it works as a tag at that place..-->
+    <div>
+        The &lt;video&gt; tag is used to embed video files in an HTML document. It supports multiple attributes to
+        control the video playback.It is implemented in the way givwn below:-
+    </div>
+    <pre>
+
+        &lt;video src="Baigan-template.mp4" controls width="300"&gt;&lt;/video&gt;
+    </pre>
+    <p>The above⬆️ code will response as given below⬇️:-</p>
+    <video src="Baigan-template.mp4" controls width="450" poster="download1.jpeg"></video>
+    <h3 class="as101">Common Attributes Of Video Tag of HTML</h3>
+    <div>
+        <ul>
+            <li>src: Specifies the path to the video file.</li>
+            <li>controls: Adds video controls, like play, pause, and volume.</li>
+            <li>loop: Repeats the video once it ends.</li>
+            <li>autoplay: Automatically starts playing the video when the page loads.</li>
+            <li>muted: Mutes the video by default.</li>
+            <li>poster: Specifies an image to be displayed before the video starts playing.</li>
+            <li>width and height: Specifies the dimensions of the video.</li>
+        </ul>
+    </div>
+    <h2 class="as100">Audio Tag in HTML</h2>
+    <h3 class="as101">Audio Tag</h3>
+    <div>
+        The &lt;audio&gt; tag is used to embed audio files in an HTML document. It also supports multiple attributes for
+        control.It is implemented in the way givwn below:-
+    </div>
+    <pre>
+
+        &lt;audio src="Hymn-For-The-Weekened(PaglaSongs).mp3" controls&gt;&lt;/audio&gt;
+    </pre>
+    <p>The above⬆️ code will response as given below⬇️:-</p>
+    <audio src="Hymn-For-The-Weekend(PaglaSongs).mp3" controls></audio>
+    <h3 class="as101">Common Attributes Of Video Tag of HTML</h3>
+    <div>
+        <ul>
+            <li>src: Specifies the path to the audio file.</li>
+            <li>controls: Adds audio controls, like play, pause, and volume.</li>
+            <li>loop: Repeats the audio once it ends.</li>
+            <li>muted: Mutes the audio by default.</li>
+            <li>preload: Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata',
+                'none').</li>
+        </ul>
+    </div>
+    <h3 class="as101">What is 'Preload'?</h3>
+    <div>
+        The "preload" attribute can have the following values:
+        <ol>
+            <li>auto: This value instructs the browser to preload the entire audio file as much as possible without
+                delaying the loading of other important page content. The browser will try to load the audio file in the
+                background so that it's ready to play when the user decides to start it.</li>
+            <li>metadata: This value tells the browser to preload only the metadata of the audio file, such as its
+                duration and basic information about the audio. This can be useful if you want to display the audio
+                duration to the user without fully loading the audio data.</li>
+            <li>none: This is the default value. It indicates that the browser should not preload the audio file at all.
+                The audio file will only start downloading when the user initiates playback.</li>
+        </ol>
+    </div>
+    <h2 class="as100">SVG in HTML</h2>
+    <h3 class="as101">What is SVG file?</h3>
+    <div>
+        Scalable Vector Graphics (SVG) has become an indispensable part of modern web development. SVG enables developers to create high-quality, scalable graphics that look crisp at any size or resolution.
+    </div>
+    <h3 class="as101">How to embed SVG file in HTML?</h3>
+    <div>
+        SVG can be embedded in HTML in several ways:
+        <ol>
+            <li>Inline SVG: Directly writing the SVG XML code within HTML.</li>
+            <li>Using an &lt;img&gt; tag: Point the src attribute to an SVG file.</li>
+            <li>Using CSS: Setting SVG as a background image in a CSS file.</li>
+        </ol>
+    </div>
+    <h4 class="as101">Inline SVG example</h4>
+    <pre>
+
+ &lt;svg height="100" width="100"&gt;
+    &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/&gt;
+ &lt;/svg&gt;
+    </pre>
+    <p>The above⬆️ code will response as given below⬇️:-</p>
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <h4 class="as101">&lt;img&gt; Tag Example</h4>
+    <div>
+        To make svg image by img,firstly we have to make .svg file.
+        For SVG file,<a href="image.svg">click here</a>
+    </div>
+    <pre>
+
+        &lt;img src="image.svg" alt="circle"&gt;
+    </pre>
+    <p>The above⬆️ code will response as given below⬇️:-</p>
+    <img src="image.svg" alt="Circle">
+    <h3 class="as101">iFrames in HTML</h3>
+    <div>
+        iFrames, or Inline Frames, are an integral part of modern web development. They allow you to embed another HTML page within your current page.
+    </div>
+    <h4 class="as101">What is an iFrame?</h4>
+    <div>
+        An iFrame is an HTML element that enables an inline frame for the embedding of external content. Essentially, you can load another web page within a designated area of your current webpage.
+    </div>
+    <h4 class="as101">Why Use iFrames?</h4>
+    <div>
+        iFrames offer a variety of use-cases:
+        <ul>
+            <li><b>Content Isolation</b>: iFrames allow you to isolate third-party content, which can improve security.</li>
+            <li><b>Modularity</b>: Easily embed external plugins, widgets, or content.</li>
+            <li><b>Resource Separation</b>: Content within an iFrame can load separately from the rest of the page.</li>
+        </ul>
+    </div>
+    <h4 class="as101">iFrame basic syntax</h4>
+    <pre>
+
+        &lt;iframe src="https://www.google.com" width="250" height="350"&gt;&lt;/iframe&gt;
+    </pre>
+    <p>The above⬆️ code will response as given below⬇️:-</p>
+    <iframe src="https://www.codewithharry.com" width="450" height="550"></iframe>
+    <div>
+        We can also embed any youtube video in html website,we can embed it from copying its iframe tag..
+    </div>
+    <pre>
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=V6nzGeZ9rg9tmoSS" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;gyroscope;picture-in-picture; web-share"
+ allowfullscreen&gt;&lt;/iframe&gt;
+    </pre>
+    <p>The above⬆️ code will response as given below⬇️:-</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=V6nzGeZ9rg9tmoSS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- For attributes,refer to List-Of-Video-&-Audio-tag-attributes.txt -->
+    <!-- Quick Quiz  -->
+     <!-- Create a website which shows videos of different category and audios of different categories.
+    You can use YouTube videos in an iframe using YouTube's embedding feature.Answer key will be sended in Video 11 Folder -->
+</body>
+
+</html>
