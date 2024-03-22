@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        /* div{
+            /* background-color: red;
+        } */
+        /* The drawback of element selector is if we make any div but we dont want color such as red then there we will face problem like the example given below */
+        /* Class selector */
+        /* when we use class selector we start it by . and then class name like . then class red */
+        .red{
+            background-color: red;
+        }
+        /* Id Selector */
+        /* when we use id selector,we start it by # and then id for example any tag has its id green then it will be written #red */
+        #green{
+            background-color: green;
+        }
+        /*Child selector  */
+        /* Child selector is a type of selector that is used to style only that specific selector which in any other main tag but this ia applied only in direct child */
+        div > p{
+            color: aqua;
+            background-color: blueviolet;
+        }
+        /* Descendent Selector */
+        /*This is used to tell that if there is a tag and in it there some more tag and in that tags we want to address only a tag ,then we use this type of selector */
+        div p{
+            color: maroon;
+            background-color: rgb(0, 255, 21);
+        }
+        /* Universal Selector */
+        /* This is a type of selector which will be applied on whole written in HTML */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+        a:link{
+            color: rgb(19, 94, 111);
+        }
+        a:visited{
+            color: brown;
+        }
+        a:hover{
+            background-color: teal;
+        }
+        a:active{
+            background-color: red;
+        }
+        /* The below one is a type of selector which is applied when the chosen selector is its parent's first child */
+        /* To learn more about pseudo selector follow the link: https://web.dev/learn/css/pseudo-classes */
+        p:first-child{
+            background-color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <main class="one">
+        <p>I am First.</p>
+        <p>I am Second.</p>
+    </main>
+    <div class="red">
+        I am a div.
+        <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facere quas cupiditate autem, corrupti quos a, suscipit doloribus quam dolorem libero ipsum exercitationem?</p></main>
+    </div>
+    <div id="green">
+        I am another div.
+    </div>
+    <a href="https://www.bewakoof420.com">Go To Bewakoof.com website</a>
+    <a href="https://www.youtube.com">Go To Youtube website</a>
+</body>
+</html>
