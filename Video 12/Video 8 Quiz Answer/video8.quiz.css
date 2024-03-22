@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Kode+Mono:wght@400..700&family=Madimi+One&family=Nanum+Gothic+Coding&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1{
+    font-family: "Anta","Oswald","Ojuju","Kode Mono","Poppins",sans-serif;
+    background-color: yellow;
+    font-size: 90px;
+    text-align: center;
+    border-radius: 6px;
+}
+form p{
+    font-family: "Madimi One","Poppins","Oswald","Baloo Bhaina 2","Baloo Da 2",sans-serif;
+    border-radius: 6px;
+    /* border: 3px solid blueviolet; */
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(210, 30, 150);
+}
+form p input{
+    font-family: "Poppins","Oswald",sans-serif;
+}
