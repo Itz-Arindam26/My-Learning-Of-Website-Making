@@ -1,0 +1,74 @@
+/* I will tell you all things in CSS after some folder as I am doing this to make the answer webpage beautiful */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Kode+Mono:wght@400..700&family=Madimi+One&family=Nanum+Gothic+Coding&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --borderrad: 6px;
+}
+h1{
+    text-align: center;
+    /* background-color: yellow; */
+    position: relative;
+    top: 17px;
+    font-size: 38px;
+    border-radius: var(--borderrad);
+    font-family: "Anta","Baloo Bhaina 2","Baloo Da 2",sans-serif;
+}
+hr{
+    border: 2px dashed red;
+}
+header{
+    background-color: aquamarine;
+    border-radius: var(--borderrad);
+}
+ul li{
+    /* text-align: center; */
+    right: 15px;
+    margin: auto 10px;
+    font-size: 23px;
+    border: 3px solid magenta;
+    border-radius: var(--borderrad);
+    position: relative;
+    top: -8px;
+    padding: 10px;
+    background-color: white;
+    display: inline-flex;
+    font-family: "Madimi One","Baloo Bhaina 2","Baloo Da 2",sans-serif;
+}
+p{
+    font-family: "Oswald","Baloo Bhaina 2","Baloo Da 2",sans-serif;
+}
+a{
+    color: black;
+}
+li:hover{
+    font-family: "Kode Mono","Poppins","Baloo Da 2","Baloo Bhaina 2",sans-serif;
+    font-weight:700;
+    color: magenta;
+}
+body{
+    background-color: pink;
+}
+iframe{
+    border-radius: var(--borderrad);
+}
+div div div{
+    margin: 20px 
+}
+.as103{
+    border: 2px solid red;
+    border-radius: var(--borderrad);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Oswald","Baloo Bhaina 2","Baloo Da 2",sans-serif;
+}
+#as104{
+    width: 655px;
+}
+h2{
+    font-family: "Ojuju","Poppins","Baloo Da 2","Baloo Bhaina 2",sans-serif;
+    text-align: center;
+    font-size: 64px;
+    position: relative;
+    top: -30px;
+    letter-spacing: 9px;
+}
