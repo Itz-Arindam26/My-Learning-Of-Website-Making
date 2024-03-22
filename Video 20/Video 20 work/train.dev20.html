@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        .as101{
+            /* display: inline-flex; */
+            font-family: monospace;
+        }
+        /* This is an example of attribute selector */
+        [data-x=a]{
+            background-color: aqua;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Specificity</h1>
+    <div>
+        <p>
+            CSS stands for Cascading Stylesheets. The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element. It's the reason that the text of the button styled with the above CSS will be purple.Understanding the cascade algorithm helps you understand how the browser resolves conflicts like this. The cascade algorithm has 4 distinct stages.
+        </p>
+        <ul>
+            <li>Position and order of appearance: the order in which your CSS rules appear</li>
+            <li>Specificity: an algorithm that determines which CSS selector has the strongest match</li>
+            <li>Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS</li>
+            <li>Importance: some CSS rules are weighted more heavily than others, especially with the <span class="as101">!important</span> rule type</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Specificity</h2>
+        <p>Inline Style > Id Selector > Class/Attribute Selector > Element Selector > Universal Selector</p>
+        <h2>Specificity Calculation</h2>
+        <p>To calculate specificity, assign a value to each part of the selector:</p>
+        <ul>
+            <li>Universal Selector: 0</li>
+            <li>Element selectors and pseudo-elements: 1</li>
+            <li>Class selectors, attribute selectors, and pseudo-classes: 10</li>
+            <li>ID selectors: 100</li>
+            <li>Inline styles: 1000</li>
+        </ul>
+        <h2>About <span class="as101">!important</span> flag</h2>
+        <p>The !important  flag in CSS is used to give a particular style rule the highest level of importance, overriding any other competing styles. When you add <span class="as101">!important</span> to a CSS rule, it will take precedence over other rules affecting the same element, regardless of their specificity.An <span class="as101">!important</span> at the end of a CSS value gets a specificity score of 10,000 points. This is the highest specificity that one individual item can get</p>
+    </div>
+    <div>
+        <h2>Example of Attribute Selector</h2>
+        <p data-x="a">
+            <!-- the above attribute in this p is an attribute selector which is styled as in the style tag above-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ad animi eos.</p>
+    </div>
+</body>
+</html>

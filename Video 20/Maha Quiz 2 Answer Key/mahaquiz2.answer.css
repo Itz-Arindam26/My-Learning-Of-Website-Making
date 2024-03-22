@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Cagliostro&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Anton&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Cagliostro&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Homemade+Apple&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Ms+Madi&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&family=Whisper&display=swap');
+:root{
+    --borr: 6px;
+}
+body{
+    background-color: black;
+    color: mediumspringgreen;
+}
+h2{
+    text-align: center;
+    font-family: "Madimi One","Ojuju","Poppins","Whisper","Roboto Condensed",sans-serif;
+    border: 2px solid silver;
+    border-radius: var(--borr);
+    color: gold;
+    background-color: silver;
+}
+ul{
+    list-style-type: square;
+}
+h1{
+    text-align: center;
+    font-family: "Teko","Aldrich Family","Ms Madi Family","Pacifico","Exo 2","Caligastro","Kanit","Homemade Apple",sans-serif;
+    color: rgb(197, 43, 200);
+    background-color: forestgreen;
+    border-radius: var(--borr);
+}
+div p:first-child{
+    color: red;
+    background-color: yellow;
+    border-radius: var(--borr);
+}
+p{
+    background-color: blue;
+    color: white;
+    border-radius: var(--borr);
+}
