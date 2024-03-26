@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box1{
+            overflow: scroll;
+        } */
+        div div p{
+            width: 30vw;
+            height: 20vh;
+            overflow: hidden;
+            border: 2px solid black;
+            margin: auto;
+        }
+        code pre{
+            background-color: black;
+            color: white;
+            width: 70vw;
+            margin: auto;
+        }
+        #as101{
+            width: 30vw;
+            height: 20vh;
+            overflow: scroll;
+            border: 2px solid black;
+            margin: auto;
+        }
+        #as102{
+            width: 30vw;
+            height: 20vh;
+            overflow: auto;
+            border: 2px solid black;
+            margin: auto;
+            
+        }
+        #as103{
+            width: 30vw;
+            height: 20vh;
+            overflow: visible;
+            border: 2px solid black;
+            margin: auto;
+        }
+        #as104{
+            /* margin: 24 */
+            display: block;
+        }
+        #as105{
+            width: 30vw;
+            height: 20vh;
+            overflow: ellipsis;
+            border: 2px solid black;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Overflow Property</h1>
+    <div>
+        <h2>Overflow</h2>
+        <div>
+            <!-- Accidentally Video 24 folder is committted in Video 23.Sorry for inconvienience... -->
+            Overflow is the property which is used when content overflows from any dimension.It's features are:-
+            <ol>
+                <li>Hidden</li>
+                <li>Scroll</li>
+                <li>Auto</li>
+                <li>Visible</li>
+                <li>Ellipsis</li>
+            </ol>
+        </div>
+        <h3>Hidden:Overflow Property</h3>
+        <div>
+            In this property,the overflowed content get hidden.For example:
+            <code>
+                <pre>
+                    
+                    &lt;p&gt;
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Vel adipisci nemo tempora
+                        asperiores molestiae deserunt non iure ex
+                        harum velit rerum culpa, alias aliquam ab.
+                        Eum quasi nihil et impedit laboriosam,
+                        consequatur ad neque architecto iusto
+                        molestiae quae id vero cum nam sapiente.
+                        Rem, accusamus. Nulla modi, praesentium 
+                        quia vero sint officia ab corporis 
+                        voluptates aut!
+                    &lt;/p&gt;
+                </pre>
+            </code>
+            <div>The above code with hidden overflow property will seem as below</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel adipisci nemo tempora asperiores molestiae deserunt non iure ex harum velit rerum culpa, alias aliquam ab. Eum quasi nihil et impedit laboriosam,consequatur ad neque architecto iusto molestiae quae id vero cum nam sapiente. Rem, accusamus. Nulla modi, praesentium quia vero sint officia ab corporis voluptates aut!</p>
+        </div>
+        <h3>Scroll:Overflow Property</h3>
+        <div>
+            In this property,the scroll bar comes from horizontal and vertical side whether there is required or not. For example:-
+            <code>
+                <pre>
+    
+                    &lt;p&gt;
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Vel adipisci nemo tempora
+                        asperiores molestiae deserunt non iure ex
+                        harum velit rerum culpa, alias aliquam ab.
+                        Eum quasi nihil et impedit laboriosam,
+                        consequatur ad neque architecto iusto
+                        molestiae quae id vero cum nam sapiente.
+                        Rem, accusamus. Nulla modi, praesentium 
+                        quia vero sint officia ab corporis 
+                        voluptates aut!
+                    &lt;/p&gt;
+                </pre>
+            </code>
+            <div>The above code with scroll overflow property will seem as below:-</div>
+            <p id="as101">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel adipisci nemo tempora asperiores molestiae deserunt non iure ex harum velit rerum culpa, alias aliquam ab. Eum quasi nihil et impedit laboriosam,consequatur ad neque architecto iusto molestiae quae id vero cum nam sapiente. Rem, accusamus. Nulla modi, praesentium quia vero sint officia ab corporis voluptates aut!</p>
+        </div>
+        <h3>Auto:Overflow Property</h3>
+        <div>
+            In this property,The scroll bar comes only when required.For example:
+            <code>
+                <pre>
+
+                    &lt;p&gt;
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Fuga mollitia labore
+                        reprehenderit dolor veniam nihil nobis dicta
+                        quas soluta iure officia in, sint inventore
+                        quidem voluptatibus, vel nam nostrum
+                        quisquam cumque ea dolorum iusto. Voluptas
+                        a illo esse in commodi minus, odio nisi
+                        aut culpa optio natus assumenda deleniti
+                        itaque rerum architecto repudiandae id,
+                        ipsum minima.
+                    &lt;/p&gt;
+                </pre>
+            </code>
+            <div>The above code will seem as below:-</div>
+            <p id="as102">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga mollitia labore reprehenderit dolor veniam nihil nobis dicta quas soluta iure officia in, sint inventore quidem voluptatibus, vel nam nostrum quisquam cumque ea dolorum iusto. Voluptasa illo esse in commodi minus, odio nisi aut culpa optio natus assumenda deleniti itaque rerum architecto repudiandae id,ipsum minima.
+            </p>
+        </div>
+        <h3>Visible:Overflow Property</h3>
+        <div>
+            In this property, the overflowed context is visible like below:-
+            <code>
+                <pre>
+
+                    &lt;p&gt;
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Vitae cupiditate laborum
+                    dolor, maxime sequi magnam reprehenderit 
+                    ipsam veritatis, animi nam quidem quae eaque
+                    officiis exercitationem. Aperiam iste 
+                    aspernatur vel consequatur in qui, quas enim
+                    animi molestiae minima, ullam repellendus 
+                    obcaecati incidunt at ad quibusdam dolores
+                    perspiciatis, nisi alias veniam laudantium
+                    ex. Eos omnis soluta repellendus nulla.
+                    &lt;/p&gt;
+                </pre>
+            </code>
+            <div>The above code will seem as below with visible overflow property:-</div>
+            <p id="as103">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cupiditate laborumdolor, maxime sequi magnam reprehenderit ipsam veritatis, animi nam quidem quae eaque officiis exercitationem. Aperiam iste aspernatur vel consequatur in qui, quas enim animi molestiae minima, ullam repellendus obcaecati incidunt at ad quibusdam dolores perspiciatis, nisi alias veniam laudantium ex. Eos omnis soluta repellendus nulla.
+            </p>
+            <br>
+            <br>
+        </div>
+        <h3 id="as104">Ellipsis</h3>
+        <div>
+            In this property, the overflowed text beccome invisible as well as in that place three full stops come.For example:-
+            <code>
+                <pre>
+
+                    &lt;p&gt;
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Enim eaque, repudiandae 
+                    deleniti tempore perferendis consectetur 
+                    tempora delectus sed nam deserunt vero 
+                        velit ipsam ab nobis nisi sapiente, animi 
+                        earum culpa temporibus, cumque labore? 
+                        Perferendis eos aspernatur sint pariatur 
+                        laborum. Nobis aliquid facere porro totam
+                        voluptatem dolorum, ab ipsum veniam ullam
+                        molestias quas unde earum voluptas illum.
+                    </pre>
+                </code>
+                <div>The above code will seem as below:-</div>
+                <p id="as105">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eaque, repudiandae deleniti tempore perferendis consectetur tempora delectus sed nam deserunt vero velit ipsam ab nobis nisi sapiente, animi earum culpa temporibus, cumque labore? Perferendis eos aspernatur sint pariatur laborum. Nobis aliquid facere porro totam voluptatem dolorum, ab ipsum veniam ullammolestias quas unde earum voluptas illum.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
