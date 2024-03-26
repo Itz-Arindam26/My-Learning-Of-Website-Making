@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables</title>
+    <style>
+        :root{
+            /* The declaration of variable */
+            /* This is a global variable */
+            --backg: red;
+        }
+        /* we use it as below in a div box */
+        .box{
+            /* to call any variable (let say --backg) we have firstly write the property as usual then we have to var() and then the name of variable in the brackets.An example regarding this is given below:- */
+            background-color: var(--backg);
+            height: 78px;
+        }
+        .box1{
+            --backg: blue; /*This is a local variable which can be declared in any element selector*/
+            background-color: var(--backg,blue/*The blue color here is the fallback color which will handle the situation if for some reson the variable is not available*/);
+            height: 78px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS variables</h1>
+    <div>
+        The variable in CSS are used to make work easy.If we want to make a small change in website,we don't have to do changes in all selector,We have to make change only in variable.To make any variable we firstly make a selector called (:root) and then we make varible.It is not necessary that variable can store color, IT can store anything you want.An example is given in style tag regarding this...
+        <br>
+        <br>
+        <div class="box"></div>
+        <br>
+        <br>
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
