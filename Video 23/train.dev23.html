@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Cagliostro&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Anton&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Cagliostro&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Homemade+Apple&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Ms+Madi&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&family=Whisper&display=swap');
+        
+        h1{
+            font-family: "Anta","Poppins","Baloo Da 2","Baloo Bhaina",Arial,sans-serif;
+            background-color: yellow;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 7px;
+        }
+        pre{
+            font-family: monospace;
+            width: 80vw;
+            background-color: black;
+            color: white;
+            margin: auto;
+            border-radius: 7px;
+        }
+        h2{
+            font-family: "Bebas Neue","Oswald","Poppins",sans-serif;
+        }
+        h3{
+            font-family: "Bebas Neue","Oswald","Poppins","Baloo Da 2",Arial,sans-serif;
+        }
+        div{
+            font-family: "Truculenta", "Teko", "Whisper", "Poppins", "Baloo Da 2", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shadows &amp; Outlines in HTML</h1>
+    <div>
+        <h2>Shadows By CSS</h2>
+        <div>
+            We use shadow property in CSS to give shadow to any text element as well as any box.To know how to use in style tag, see below:-
+            <h3>For Text Element</h3>
+            <code>
+                <pre>
+
+                    &lt;style&gt;
+                        .anyelement{
+                            text-shadow: horizental-offset vertical-offset blur color;
+                        }
+                    &lt;/style&gt;
+                </pre>
+            </code>
+            <h3>For Box element</h3>
+            <code>
+                <pre>
+
+                    &lt;style&gt;
+                        .anyelement{
+                            box-shadow: horizontal-offset vertical-offset blur spread color inset;
+                        }
+                    &lt;/style&gt;
+                </pre>
+            </code>
+        </div>
+        <h2>Outline by CSS</h2>
+        <div>
+            We use outline property in CSS to change style of outline.There are folllowing types of outline:-
+            <ol>
+                <li>Solid</li>
+                <li>Dotted</li>
+                <li>Dashed</li>
+                <li>Wavy</li>
+                <li>Double</li>
+            </ol>
+            <!-- For more info, go to https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style -->
+        </div>
+    </div>
+</body>
+</html>
