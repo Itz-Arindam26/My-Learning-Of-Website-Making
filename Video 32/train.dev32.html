@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS selector</title>
+    <style>
+        /* The below one is child selector */
+        .box:first-child{
+            color: red;
+        }
+        /* The 'first line' pseudo element is used to set any thing in the first line irrespective to the device's dimensions */
+        .box:first-child::first-line{
+            background-color: yellow;
+        }
+        /* There is also a below one type of selector whiich used when if there is a class which contain another objects,the css will applied on all the objects in it */
+        .boxes *{
+            border: 2px solid greenyellow;
+        }
+        /* Attribute selector */
+        [data-col="prime"]{
+            padding-top: 16px;
+        }
+        /* nth-child selector is a type of pseudo selector in which we can select any child unlike first child as well as we can chose that the property should be applied on odd or even */
+        .box:nth-child(even){
+            background-color: papayawhip;
+        }
+        /* the nth last child selector which selects teh last preference you have given to the selector */
+        .box:nth-last-child(1){
+            color: rgb(193, 166, 58);
+        }
+        /* Before is a type of pseudo element which is used to add content before the selected element's content*/
+        .boxes::before{
+            content: "Hey this is Before content...";
+        }
+        /* After is also a pseudo element which works same as before but it add contents after the selected element's content  */
+        .boxes::after{
+            content: "Hey,This is After content..";
+        }
+        /* Selection is a type of pseudo element in which if we select anything on the page,It will as the properties in the selection */
+        ::selection{
+            color: chocolate;
+            background-color: blueviolet;
+        }
+        /* first letter is a type of pseudo element which is used to apply properties only on the first letter of the selected element  */
+        ::first-letter{
+            color: hotpink;
+        }
+        /* input placeholder formatting */
+        input::placeholder{
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box" data-col="prime">Hey I am first box. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nobis facere. Quos ab laborum, id, quam, odio itaque nulla illo blanditiis officia corporis necessitatibus eaque. Fugiat earum nihil vel, maiores perspiciatis dolorum aspernatur nulla vero provident error velit omnis explicabo eveniet quam!</div>
+        <div class="box">Hey I am the second box.</div>
+        <div class="box">Hey I am the third one.</div>
+        <input type="text" placeholder="Enter Your Username">
+    </div>
+</body>
+</html>
