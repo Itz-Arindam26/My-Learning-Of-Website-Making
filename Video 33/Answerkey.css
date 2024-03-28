@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Cagliostro&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Anton&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Cagliostro&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Homemade+Apple&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Ms+Madi&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&family=Whisper&display=swap');
+
+ :root {
+     --bord: 2px solid;
+     --color: magenta;
+ }
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ header>nav>ul>li {
+     display: inline-flex;
+     list-style: none;
+     padding: 10px;
+     margin: 10px;
+     border: var(--bord) black;
+     background-color: white;
+     position: relative;
+     left: 331px;
+     font-weight: 700;
+     font-size: 27px;
+     font-family: "Exo 2","Teko","Kanit","Roboto Condensed","Poppins","Baloo Da 2","Baloo Bhaina 2",sans-serif,monospace;
+ }
+
+ nav>ul {
+     display: inline-flex;
+ }
+
+ header {
+     background-color: var(--color);
+     position: sticky;
+     top: 0;
+ }
+
+ header>nav>h1 {
+     display: inline-flex;
+     font-size: 47px;
+     position: relative;
+     left: 10px;
+     font-family: "Anta","Kanit","Madimi one","Teko","Baloo Da 2",monospace;
+ }
+
+ .as102 {
+     padding-bottom: 2rem;
+     background-color: blueviolet;
+ }
+
+ li:hover {
+     color: var(--color);
+     font-family: "Teko", "Whisper", "Oswald", "Baloo Da 2", "Poppins", sans-serif;
+ }
+
+ #as101 {
+     width: 445px;
+     height: 566px;
+     border: 2px solid black;
+     display: inline-flex;
+     margin: 72px;
+     background-color: red;
+ }
+
+ #as103 {
+     display: inline-flex;
+     width: 445px;
+     height: 566px;
+     background-color: blue;
+     border: 2px solid black;
+     margin: 72px;
+ }
+
+ #as104 {
+     background-color: burlywood;
+     width: 556px;
+     border: 2px solid black;
+     border-radius: 40px;
+     text-align: center;
+     font-size: 46px;
+     margin: auto;
+     padding: 30px;
+     font-family: "Bebas Neue","Teko","Kanit","Baloo Da 2","Poppins",sans-serif;
+ }
+
+ hr {
+     border: 2px solid black;
+     margin-top: 3px;
+ }
+
+ footer>div {
+     font-family: "Kanit", "Oswald", "Ojuju", "Baloo Da 2", "Poppins", "Baloo Bhaina 2", monospace, sans-serif;
+     color: grey;
+     text-align: center;
+     font-size: 20px;
+ }
+ #as105{
+    /* border: 23px solid grey;
+    position: sticky; */
+    background-color: orangered;
+    height: 73px;
+    width: 73px;
+    border: 2px solid black;
+    border-radius: 50px;
+    /* left: 53px; */
+    position: fixed;
+    bottom: 34px;
+    left: 1188px;
+ }
+ /* main>div>article{
+    position: sticky;
+    left: 234px;
+ } */
