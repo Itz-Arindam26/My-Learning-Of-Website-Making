@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex-Box Property</title>
+    <style>
+        .container{
+            border: 2px solid green;
+            display: flex;
+            /* height: 70vh; */
+            /* justify-content: center;This is different from align item it only align center of the line */
+            /* align-items: center; This align item makes center the content at the point like centre of circle */
+            /* We can set direction of the Flex box */
+            /* flex-direction: column; */
+            /* column make it in column */
+            /* column-reverse makes it in like reverse counting */
+            /* Flex-wrap is the property which is used when the items get overflowed such that they got hidden when we used wrap value */
+            flex-wrap: wrap;
+            /* gap: 23px; */
+            column-gap: 10px;
+            row-gap: 30px;
+            align-content: center;
+        }
+        .items{
+            width: 60px;
+            height: 100px;
+            margin: 4px;
+            background-color: aqua;
+            border: 2px solid black;
+        }
+        /* there is an order property in which we can decide the order of any box or element in flex box.As order no. decrease, the element goes last and as increase,the element goes toward first */
+
+        .order-1{
+            order: 1;
+        }
+        /* align self is a property which used for any individual element to align it differently */
+        .item2{
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <!-- The flexbox is the property which oftenly used to decorate any website specially nav bar.This is applied on the parent of the elements not on the individual element -->
+    <div class="container">
+        <div class="items item2">77</div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items order-1">box</div><!-- The order-1 class makes this box go to the end of the boxes due to its order property-->
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+</body>
+</html>
