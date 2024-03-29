@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform Property</title>
+    <style>
+        .box{
+            height: 80px;
+            width: 85px;
+            background-color: beige;
+            border: 2px solid black;
+            /* We can rotate any thing by a specific degree by using transform  property */
+            transform: rotate(60deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box1{
+            /* we can also rotate by giving point value between 0 to 1 like 0.25 where 1 is 360 degree, 0.25 is 90 degree, 0.5 = 180degree, 0.75 = 270degree */
+            transform: rotate(0.25turn);
+        }
+        .box2{
+            /* we can also rotate with respect to axis like x, y & z */
+            transform: rotateX(45deg);
+        }
+        .box3{
+            /* we can select any axis or by saying value at scale value to increase that thing at how much time; */
+            transform: scale(1.5);
+        }
+        .box4{
+            /* we can strect any box by streching two opposite corners using skew()transform property */
+            transform: skew(5deg);
+        }
+        .box5{
+            /* we can translate any thing by axis x, y& z using transform  */
+            transform: translate(20%);
+        }
+        .container{
+            display: flex;
+            gap: 103px;
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Lorem</div>
+        <div class="box1 box">Lorem1 at 0.25 turn</div>
+        <div class="box box2">Lorem2 at 45degree according to X axis</div>
+        <div class="box box3">Lorem3 increased by 1.5 factor</div>
+        <div class="box4 box">Lorem4 stretched by 5 degree using skew()</div>
+        <div class="box5 box">Lorem5</div>
+        <div class="box6 box">Lorem6</div>
+    </div>
+</body>
+</html>
