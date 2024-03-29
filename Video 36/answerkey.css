@@ -1,0 +1,55 @@
+div>span>img{
+    width: 220px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 247px;
+    background-color: white;
+}
+.items{
+    display: flex;
+    gap: 9px 17px;
+    align-items: center;
+}
+.listitems{
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.listitems:hover{
+    color: grey;
+}
+ul>li>img{
+    width: 14px;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+h1,main>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 176px;
+}
+h1{
+    font-weight: 400;
+    font-size: 48px;
+}
+main>div{
+    width: 456px;
+    line-height: 3;
+}
+#as102{
+    font-size: 24px;
+    color: grey;
+}
+.as104>li{
+    padding-left: 176px;
+    list-style-position: inside;
+    font-size: 18px;
+}
+.as104>li>a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00b6d1;
+}
