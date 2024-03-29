@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Property</title>
+    <style>
+        .container{
+            height: 50vh;
+            width: 80vw;
+            border: 2px solid green;
+            display: grid;
+            grid-template-columns: 120px 100px; /* This decidesabout the length of the column */
+            /* grid-template-rows: 100px 100px 100px; This decides the height of the row */
+            grid-template-rows: repeat(3,minmax(100px, 1fr));
+            row-gap: 23px;
+            column-gap: 56px;
+            justify-content: center;
+            justify-items: center;
+        }
+        .item{
+            border: 2px solid blue;
+            height: 55px;
+            width: 55px;
+        }
+        /* These below two class selector will make the box 1 and box 2 overlap */
+        /* .item-4{
+            /* grid-row: 1/2; These properties make them overlap on 1st box or you can do below thing because these are same thing*/
+            /*
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column: 1/2;
+        }
+        .item-1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item-4">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+</body>
+</html>
