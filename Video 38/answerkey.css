@@ -1,0 +1,153 @@
+div>span>img{
+    width: 220px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 247px;
+    background-color: white;
+}
+.items{
+    display: flex;
+    gap: 9px 17px;
+    align-items: center;
+}
+.listitems{
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.listitems:hover{
+    color: grey;
+}
+ul>li>img{
+    width: 14px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+h1,main>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding-left: 176px; */
+    text-align: center;
+}
+h1{
+    font-weight: 400;
+    font-size: 48px;
+}
+.as101{
+    width: 805px;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+   text-decoration: none; 
+   text-align: center;
+}
+main>div>div>a>.as102{
+    background-color: #00b6d1;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 36px;
+    width: 333px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+}
+.as110{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.as103{
+    /* padding-left: 438px; */
+    padding-top: 20px;
+
+}
+.as104{
+    font-size: 22px;
+    padding-left: 45px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+.as104>small{
+    color: grey;
+    font-size: 16px;
+}
+.as104>img{
+    width: 38px;
+}
+.mycont{
+    display: grid;
+    grid-template-columns: repeat(3, 335px);
+    grid-template-rows: repeat(4, 200px);
+    row-gap: 20px;
+    column-gap: 17px;
+    /* padding-left: 123px; */
+    justify-content: center;
+}
+.myitem{
+    background-color: #ebebeb;
+    align-items: center;
+}
+div.myitem{
+    TEXT-ALIGN: center;
+    /* font-size: 26px; */
+    /* align-content: center; */
+}
+div.myitem>h3{
+    font-size: 22px;
+}
+div.myitem>h3>small{
+    font-size: medium;
+    display: block;
+    font-weight: 100;
+}
+main>div.mycont>div.myitem>div.as106{
+    display: inline-flex;
+    padding-top: 37px;
+}
+main>div.mycont>div.myitem>div.as108{
+    padding-top: 37px;
+    display: inline-flex;
+}
+main>div.mycont>div.myitem>div.as106>a>.div.as107{
+    display: inline-flex;
+}
+main>div.mycont>div.myitem>div.as106>a{
+    background-color: #00b6d1;
+    align-items: center;    
+    color: white;
+    justify-content: center;
+    height: 28px;
+    width: 151px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+}
+main>div.mycont>div.myitem>div.as108>a{
+    background-color: #00b944;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 28px;
+    width: 151px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+}
+@media only screen and (maxwidth: 445px){
+    .container{
+        gap: 34px;
+    }
+}
+.as111{
+    display: flex;
+
+}
