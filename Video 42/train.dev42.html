@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object-fill &amp; object cover</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 466px;
+            width: 488px;
+            background-color: purple;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4UeEjjERyEVTOIaXIKHlj7snPZAKulH5-z1Kau1lsw&s);/* we can paste any image by css using this property*/
+            background-repeat: no-repeat; /* this is used in the case where the image is short and it may repeat. In that cases this used such that the image can not repeat again and again*/
+            background-position: center center; /*this is used when we want to center the image*/
+            border: 2px solid black;
+        }
+        img{
+            /* object-fit: cover; this property will fit according to said any it will not give the wastage of space */
+            height: 466px;
+            /* object-fit: fill; this is the default property of object-fit */
+            object-fit: contain; /* this is used to maintain the aspect ratio of the inage as well as fit the image according to user specified dimensions*/
+            object-position: bottom left; /* this is used to specify that which side of the image should be visible if it is not able to fit according to the user given dimensions*/
+            width: 488px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4UeEjjERyEVTOIaXIKHlj7snPZAKulH5-z1Kau1lsw&s" alt=""> -->
+    </div>
+</body>
+</html>
