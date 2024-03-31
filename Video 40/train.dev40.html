@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container{
+            background-color: blanchedalmond;
+            height: 80vh;
+            width: 30vw;
+        }
+        .box{
+            width: 34px;
+            height: 45px;
+            background-color: aqua;
+            animation-name: AsamantaKaAnimation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite; /* this tells that how many times this animation be used*/
+            animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1); /* this tells aboout the smoothness of performing animation */
+            animation-delay: 0.2s; /* this tells after how much time of refresh should animation start*/
+            /* for learning more about all these refer to https://developer.mozilla.org/en-US/docs/Web/CSS/animation*/
+        }
+        @keyframes AsamantaKaAnimation {
+            from{
+
+            }
+            to{
+                transform: translate(1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+</body>
+</html>
