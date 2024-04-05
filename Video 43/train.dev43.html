@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filter Property</title>
+    <style>
+        img{
+            filter: blur(8px); /* this is used to blur any picture*/
+        }
+        /* filter is the property which is used in image to apply filter properties */
+        .img1{
+            filter: brightness(122%); /* this is used to set the brightness of the image */
+        }
+        .img2{
+            filter: contrast(60%); /* this is used to set the color contrast of any image */
+        }
+        .img3{
+            filter: grayscale(100%); /* this is used to make picture black 'n' white */
+        }
+        .img4{
+            filter: invert(1);
+        }
+        .img5{
+            filter: sepia(72%); /* this is used to make the image */
+        }
+        .img6{
+            filter: opacity(2);
+        }
+        /* to know more about this follow the link https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bLg1NQ7hxBmxr6mbk1fkQGv-a6f8QskCSmZlTK-3fg&s" alt="mycont">
+        <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNcjOi47fAxhAkXJW-dHhDMCBPdbRGa7GXAy3iQBeVgg&s" alt="tapaspal">
+        <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj1WwP6RK9sjXRA-2B6KVdKCSTuMoevY2bX2ekQDenpA&s" alt="ranjitmallick">
+        <img src="https://static.toiimg.com/thumb/imgsize-23456,msid-104069415,width-600,resizemode-4/104069415.jpg" alt="Victor Banarjee" class="img3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_HhdDT_Z2jIq6eb4IR9GM3McnenwYA0cLfotmLcWOnQ&s" alt="mithun" class="img4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLPIJs1wDnHJrqyhwjS_kG2UjB17zde9AkIv4Vnu2KQ&s" alt="Utpal Dutt" class="img5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYl-REcYmIF1rzal9pu7p9VOcQUywAcct0mTgVY4Y7Q&s" alt="Babu Bhaiya" class="img6">
+    </div>
+</body>
+</html>
