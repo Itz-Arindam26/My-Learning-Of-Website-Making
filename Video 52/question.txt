@@ -1,0 +1,19 @@
+There is the question is to make a business name generator which can generate name by combining lists of adjectives and shop name and another word
+like in below one 
+
+Adjectives:
+Crazy
+Amazing
+Fire
+
+Shop name:
+Fashion
+Garment
+Hub
+
+Another Word:
+Limited
+.Co
+Hub
+
+There is the certain rule which is you will not use arrays to do this
