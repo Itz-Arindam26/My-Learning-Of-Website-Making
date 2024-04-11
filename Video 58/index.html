@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box{
+            height: 45px;
+            width: 115px;
+            margin: 15px;
+            padding: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum dolor sit.</div>
+        <div class="box">Lorem ipsum dolor sit.</div>
+        <div class="box">Lorem ipsum dolor sit.</div>
+        <div class="box">Lorem ipsum dolor sit.</div>
+        <div class="box">Lorem ipsum dolor sit.</div>
+    </div>
+    <script>
+        let a = document.getElementsByClassName('box');
+        a[0].style.backgroundColor = 'red';
+        a[0].style.color = 'yellow';
+        a[1].style.backgroundColor = 'green';
+        a[1].style.color = 'blue';
+        a[2].style.backgroundColor = 'blue';
+        a[2].style.color = 'white';
+        a[3].style.backgroundColor = 'black';
+        a[3].style.color = 'red';
+        a[4].style.backgroundColor = 'yellow';
+        a[4].style.color = 'grey';
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+You have been assigned 5 boxes and you have to give different color as well as background colour to all of them using the DOM concepts in .js file.You will not use Internal Or external CSS styling to this work.Only you will do this for giving,marging,padding, height, width and a border.
