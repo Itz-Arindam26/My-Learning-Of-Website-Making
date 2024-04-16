@@ -1,0 +1,9 @@
+You have to make a function in js which will take:-
+
+1. Youtube video's title
+2. That video's creater
+3. How much month ago it was made?
+4. Duration of the video in seconds
+5. Thumbnail of the video
+
+And decorate it like any Youtube video's recomendation.

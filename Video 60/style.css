@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+body .container {
+  margin: 0.2rem;
+}
+body .container .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.45rem;
+  border: 2px solid black;
+  padding: 0.2em;
+  width: 52rem;
+  margin: auto;
+}
+body .container .card:hover {
+  background-color: #282727;
+}
+body .container .card .image {
+  display: grid;
+}
+body .container .card .image img {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  border-radius: 0.4rem;
+  max-height: 94px;
+  max-width: 168px;
+}
+body .container .card .image p {
+  background-color: black;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  padding: 0.2rem;
+  font-size: 0.7em;
+  border-radius: 7px;
+  height: 1em;
+  width: 1.8rem;
+  position: relative;
+  padding-top: 0.1rem;
+  right: -8rem;
+  top: 4.5rem;
+}
+body .container .card .text {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+body .container .card .text h3 {
+  margin: 0;
+}
+body .container .card .text p {
+  color: #666161;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=style.css.map */

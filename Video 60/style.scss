@@ -1,0 +1,50 @@
+@import "_mixins";
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    @include bodystyling;
+    .container {
+        margin: 0.2rem;
+        .card {
+            @include crsty;
+
+            &:hover {
+                background-color: #282727;
+            }
+
+            .image {
+                display: grid;
+
+                img {
+                    @include gridrowcol;
+                    border-radius: 0.1rem * 4;
+                    max-height: 94px;
+                    max-width: 168px;
+                }
+
+                p {
+                    background-color: black;
+                    @include gridrowcol;
+                    @include pstyle;
+                }
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                width: 40rem;
+
+                h3 {
+                    margin: 0;
+                }
+
+                p {
+                    color: #666161;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}

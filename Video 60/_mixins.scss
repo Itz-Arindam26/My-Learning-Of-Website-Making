@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@mixin flexprop1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // align-items: center;
+}
+@mixin gridrowcol {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+@mixin bodystyling{
+    font-family: 'Roboto',Arial,sans-serif;
+    background-color: black;
+    color: white;
+}
+@mixin pstyle{
+    padding: 0.2rem;
+    font-size: 0.7em;
+    border-radius: 7px;
+    height: 1em;
+    width: 1.8rem;
+    position: relative;
+    padding-top: 0.1rem;
+    right: -8rem;
+    top: 4.5rem;
+}
+@mixin crsty{
+    @include flexprop1;
+    gap: 0.45rem;
+    border: 2px solid black;
+    padding: 0.2em;
+    width: 52rem;
+    margin: auto;
+}
